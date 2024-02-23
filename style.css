@@ -1,0 +1,305 @@
+.navbar {
+    z-index: 1000;
+    display: flex;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logoimage {
+    width: 200px;
+}
+
+.searchbar input {
+    width: 300px;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.navspa {
+    color: #2F6CE5;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #555;
+}
+
+.posterimg {
+    top: 57px;
+    z-index: -100;
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 57px;
+}
+
+.posterdiv {
+    top: 57px;
+    width: 100vw;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    padding: 0px 15vw;
+    padding-top: 300px;
+}
+
+.main {
+    width: 100vw;
+    margin-top: 40px;
+}
+
+.submain {
+    width: 70%;
+    margin: 10px 0px;
+}
+
+.leftsubnav ul li {
+    list-style: none;
+    color: #8A8A8A;
+}
+.subnav{
+    display: flex;
+}
+
+.leftsubnav ul li:hover {
+    color: black;
+}
+
+.btn1 {
+    background-color: #EDEEF0;
+}
+
+.btn2 {
+    background-color: #2F6CE5;
+}
+.btn3 {
+    color: #6A6A6B;
+}
+
+.postsec {
+    width: 100%;
+}
+
+.posts {
+    width: 70%;
+}
+
+.post {
+    width: 100%;
+}
+
+.lgsec {
+    width: 25%;
+    height: fit-content;
+    position: sticky;
+    top: 150px;
+    display: flex;
+}
+
+.postimg {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.dots {
+    width: 25px;
+}
+
+.dots:hover {
+    padding: 4px;
+    border-radius: 3px;
+    background-color: #BFBFC0;
+}
+
+.ldet img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.shareimg {
+    padding-top: 2px;
+    padding-bottom: 6px;
+    padding-left: 7px;
+    padding-right: 8px;
+    border-radius: 3px;
+}
+
+.shareimg img {
+    height: 20px;
+}
+
+.subnav {
+    top: 55px;
+    padding-top: 10px;
+}
+
+.bigbtn1 {
+    color: #E56135;
+}
+
+.bigbtn2 {
+    color: #02B875;
+}
+
+.srloc:focus {
+    outline: none
+}
+
+.parra {
+    color: #7f7f7f;
+}
+
+.recgroups {
+    margin-top: 25px;
+}
+
+.groupimg {
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    object-fit: cover;
+}
+
+.grplist {
+    margin-top: 20px;
+}
+
+.semore {
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+
+.modal-backdrop {
+    z-index: 999;
+}
+
+.logintit {
+    color: #008A45;
+}
+
+.poptit {
+    background-color: #EFFFF4;
+}
+
+.posterlo {
+    /* width: 50%; */
+}
+.rightsubnav{
+    display: flex;
+}
+
+.authinp:focus {
+    outline: none;
+}
+
+.component {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+.posarrow{
+    width: 20px;
+}
+.topmidbar{
+    display: none;
+}
+.posterdiv p{
+    font-size: 1.25rem;
+}
+.subnav2{
+    display: none;
+}
+.font1rem{
+    font-size: 1.5rem;
+}
+.pen{
+    display: none;
+}
+.rightauth{
+    width: 50%;
+}
+@media screen and (max-width: 1000px) {
+    .rightauth{
+        width: 100%;
+    }
+    .sideauth{
+        display: none;
+    }
+    .pen{
+        display: block;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 50%;
+        object-fit: cover;
+        height: 50px;
+        width: 50px;
+        z-index: 100000;
+        border: none;
+        background: linear-gradient(180deg,#ff5c5c,#f0568a);
+    }
+    .font1rem{
+        font-size: 0.7rem;
+    }
+    .main{
+        margin-top: 0px;
+    }
+    .subnav2{
+        display: block;
+        display: flex;
+        padding: 0px 10px;
+    }
+    .posterdiv h1{
+        font-size: 17px;
+    }
+    .topmidbar{
+        margin-bottom: 150px;
+        display: block;
+        display: flex;
+    }
+    .posterdiv p{
+        font-size: 17px;
+    }
+    body{
+        /* overflow-x: hidden; */
+    }
+    .navbar{
+        display: none;
+    }
+    .posterimg{
+        margin-top: 0px;
+        height: 300px;
+    }
+    .posterdiv{
+        top: 0;
+        padding-top: 0;
+        height: 300px;
+        padding: 0px 20px;
+    }
+    .rightsubnav{
+        display: none;
+    }
+    .lgsec{
+        display: none;
+    }
+    .posts{
+        width: 100%;
+    }
+    .subnav{
+        display: none;
+    }
+    .submain{
+        width: 99%;
+    }
+  }
